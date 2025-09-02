@@ -4,7 +4,7 @@ m = 0.1;     % Mass of the pole (kg)
 M = 1.0;     % Mass of the cart (kg)
 L = 0.5;     % Length of the pole (m)
 g = 9.81;    % Gravitational acceleration (m/s^2)
-d = 0.0;     % Damping coefficient (assumed zero)
+d = 0.0;     % Damping coefficient 
 
 % State-Space Model
 % States: x (cart position), x_dot (cart velocity), theta (pole angle), theta_dot (angular velocity)
@@ -13,7 +13,7 @@ A = [0 1 0 0;
      0 0 0 1;
      0 0 (m+M)*g/(M*L) 0];
 B = [0; 1/M; 0; -1/(M*L)];
-C = [1 0 0 0;  % Output: cart position (fixed typo: replaced X with 0)
+C = [1 0 0 0;  % Output: cart position 
      0 0 1 0]; % Output: pole angle
 D = [0; 0];
 
@@ -27,9 +27,9 @@ Acl = A - B*K; % Closed-loop system matrix
 sys_cl = ss(Acl, B, C, D);
 
 % Simulation Parameters
-tspan = 0:0.01:10; % Simulation time (0 to 10 seconds)
+tspan = 0:0.01:10; 
 x0 = [0; 0; 0.1; 0]; % Initial condition: small angle perturbation (0.1 rad)
-[t, x] = ode45(@(t, x) Acl*x, tspan, x0); % Simulate closed-loop system
+[t, x] = ode45(@(t, x) Acl*x, tspan, x0); 
 
 % Extract states
 x_cart = x(:, 1);     % Cart position

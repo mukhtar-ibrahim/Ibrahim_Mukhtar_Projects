@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Linear_Actuator")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/agv_circuit/Linear_Actuator.kicad_sym")(options "")(descr ""))
+  (lib (name "NPK_sensor")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/agv_circuit/NPK_sensor.kicad_sym")(options "")(descr ""))
+  (lib (name "IMU_sensor")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/agv_circuit/IMU_sensor.kicad_sym")(options "")(descr ""))
+  (lib (name "Relay_module")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/agv_circuit/Relay_module.kicad_sym")(options "")(descr ""))
+  (lib (name "Soil_Moisture_sensor")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/agv_circuit/Soil_Moisture_sensor.kicad_sym")(options "")(descr ""))
+  (lib (name "RS485_agv")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/agv_circuit/RS485_agv.kicad_sym")(options "")(descr ""))
+  (lib (name "BMS_block")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/agv_circuit/BMS_block.kicad_sym")(options "")(descr ""))
+  (lib (name "aaaaa")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/agv_circuit/aaaaa.kicad_sym")(options "")(descr ""))
+  (lib (name "MSK_regulator")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/agv_circuit/MSK_regulator.kicad_sym")(options "")(descr ""))
+)

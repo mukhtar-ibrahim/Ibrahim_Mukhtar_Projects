@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Nex6_lm")(type "KiCad")(uri "${KIPRJMOD}/Nex6_lm.kicad_sym")(options "")(descr ""))
+)

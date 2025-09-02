@@ -1,7 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "m_driver")(type "KiCad")(uri "${KIPRJMOD}/m_driver.kicad_sym")(options "")(descr ""))
-  (lib (name "disp")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/kali_circuit/disp.kicad_sym")(options "")(descr ""))
-  (lib (name "MeineDISP")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/kali_circuit/MeineDISP.kicad_sym")(options "")(descr ""))
-  (lib (name "MeDISP")(type "KiCad")(uri "C:/Users/USER/OneDrive/Desktop/kali_circuit/MeDISP.kicad_sym")(options "")(descr ""))
-)

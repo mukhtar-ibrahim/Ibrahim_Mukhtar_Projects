@@ -1,1 +1,0 @@
-Changed footprint BT1 from 'Battery:BatteryHolder_Bulgin_BX0036_1xC' to 'Battery:Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles': : OK

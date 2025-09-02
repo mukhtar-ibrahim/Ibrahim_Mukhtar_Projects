@@ -1,9 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "XT60")(type "KiCad")(uri "\"C:/Users/USER/OneDrive/Desktop/AGV_PDB/AGV_power/XT60-M/XT60-M.kicad_sym\"")(options "")(descr ""))
-  (lib (name "L298N")(type "KiCad")(uri "${KIPRJMOD}/L298N.kicad_sym")(options "")(descr ""))
-  (lib (name "Buck_conv")(type "KiCad")(uri "${KIPRJMOD}/Buck_conv.kicad_sym")(options "")(descr ""))
-  (lib (name "buck")(type "KiCad")(uri "${KIPRJMOD}/buck.kicad_sym")(options "")(descr ""))
-  (lib (name "My_L298N")(type "KiCad")(uri "${KIPRJMOD}/My_L298N.kicad_sym")(options "")(descr ""))
-  (lib (name "buckko")(type "KiCad")(uri "${KIPRJMOD}/buckko.kicad_sym")(options "")(descr ""))
-)
